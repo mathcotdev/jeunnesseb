@@ -1,0 +1,74 @@
+body
+{
+    background-color: black;
+}
+.divimg
+{
+    display: flex;
+    flex-direction: column;
+    background-color: light;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+.row
+{
+    justify-content:space-between;
+    margin: auto;
+    
+}
+.awhidth
+{
+    width:max-content;
+    margin: auto;
+}
+.imart
+{
+    width: 300px;;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid white ;
+}
+.logd
+{
+    text-align: center;
+}
+#logo
+{
+    animation-duration: 5s;
+    animation-name: rotations;
+    width: 200px;
+}
+@keyframes rotations {
+    0%{width: 10px; transform: rotate(0deg);}
+    100%{width: 100px; transform: rotate(360deg);}
+}
+@media(max-width : 900px)
+{
+    .navbar-brand
+    {
+        font-size: 30px;
+    }
+    .divimg, .btn
+    {
+        font-size: 30px;
+    }
+    .divimg
+    {
+        text-align: center;
+    }
+}
+.BAS
+{
+    margin-bottom: auto;
+}
+.ba 
+{
+    text-decoration: none;
+    list-style:none;
+}
+.grand
+{
+    font-size: 20px;
+}
